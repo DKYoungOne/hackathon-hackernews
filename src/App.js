@@ -22,7 +22,7 @@ class App extends Component {
   // http://hn.algolia.com/api/v1/search?query=${this.state.query}}&tags=story
 
   componentDidMount() {
-    fetch(`http://hn.algolia.com/api/v1/search?query=${this.state.query}&tags=story`)
+    fetch(`https://hn.algolia.com/api/v1/search?query=${this.state.query}&tags=story`)
       .then(res => {
         return res.json()
       }).then(data => {
@@ -39,7 +39,7 @@ class App extends Component {
 
     if (this.state.query !== prevState.query) {
       console.log('they matchhhhhhhhhhhhhh')
-      fetch(`http://hn.algolia.com/api/v1/search?query=${this.state.query}&tags=story`)
+      fetch(`https://hn.algolia.com/api/v1/search?query=${this.state.query}&tags=story`)
         .then(res => {
           return res.json()
         }).then(data => {
