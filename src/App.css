@@ -28,6 +28,44 @@
   color: #61dafb;
 }
 
+.Search-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-right: 16px;
+  background-color: #FF742B;
+  
+}
+
+.Logo-Label {
+  display: flex;
+  font-size: 18px;
+  line-height: 1;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+.Logo-Image {
+  
+  height: 48px;
+  width: 48px;
+  -ms-flex: 1 0 180px;
+    flex: 1 0 180px;
+    max-width: 180px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.Search-Bar {
+  position: relative;
+  display: inline-block;
+  top: -50px;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
